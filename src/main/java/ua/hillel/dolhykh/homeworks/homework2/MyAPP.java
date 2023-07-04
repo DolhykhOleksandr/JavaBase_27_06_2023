@@ -7,6 +7,7 @@ public class MyAPP {
         double longitude = 30.3125; // довгота Києва
 
         System.out.println("Latitude: " + latitude);
+        System.out.println("Latitude: " + latitude);
         System.out.println("Longitude: " + longitude);
     }
 }
