@@ -9,6 +9,7 @@ public class MyAPP {
         System.out.println("Latitude: " + latitude);
         System.out.println("Latitude: " + latitude);
         System.out.println("Longitude: " + longitude);
+        System.out.println("Longitude: " + longitude);
     }
 }
 
