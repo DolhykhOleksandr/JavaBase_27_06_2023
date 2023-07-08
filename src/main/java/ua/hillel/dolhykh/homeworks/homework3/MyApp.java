@@ -10,7 +10,7 @@ public class MyApp {
         double volume = length * width * height; // Об'єм
         System.out.println("Об'єм паралелепіпеда = " + volume);
 
-        double totalLength = 2 * (length + width + height); // Сумарна довжина всіх сторін
+        double totalLength = 4 * (length + width + height); // Сумарна довжина всіх сторін
         System.out.println("Сумарна довжина всіх сторін = " + totalLength);
 
         {
