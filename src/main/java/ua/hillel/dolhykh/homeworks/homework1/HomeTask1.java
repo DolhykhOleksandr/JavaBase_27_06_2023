@@ -4,11 +4,16 @@ public class HomeTask1 {
 
     public static void main(String[] args) {
 
-        System.out.println("Hello \n" + "World");
-        System.out.println("Hello World");
-        System.out.println("Hello World");
-        System.out.println("Hello World");
-        System.out.println("Hello World");
-        System.out.println("Hello World");
+
+        String s = "asdf";
+        char[] chars = s.toCharArray();
+        chars[2] = 'Q';
+        String result = new String(chars);
+
+        System.out.println(result); 
+
+
     }
 }
+
+
