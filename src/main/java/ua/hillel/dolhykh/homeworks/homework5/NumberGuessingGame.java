@@ -24,8 +24,7 @@ public class NumberGuessingGame {
                             + ". In attempts: " + attempts + ".");
                     break;
                 } else if (attempts == 3) {
-                    System.out.println(
-                            "Sorry, you've used all your attempts. The correct number was " + randomNumber + ".");
+                    System.out.println("Sorry, you've used all your attempts. The correct number was " + randomNumber + ".");
                     break;
                 } else {
                     System.out.println("Incorrect guess. Try again.");

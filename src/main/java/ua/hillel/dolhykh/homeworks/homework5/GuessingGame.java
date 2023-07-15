@@ -15,8 +15,7 @@ public class GuessingGame {
             if (scanner.hasNextInt()) {
                 guessNumber = scanner.nextInt();
                 if (guessNumber == number) {
-                    System.out.println(
-                            "Congratulations! You guessed the number correctly! in " + (attempts + 1) + " attempts.");
+                    System.out.println("Congratulations! You guessed the number correctly! in " + (attempts + 1) + " attempts.");
                     break;
                 } else if (guessNumber < number) {
                     System.out.println("Your guess is too low.");
