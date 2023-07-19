@@ -2,7 +2,7 @@ package ua.hillel.dolhykh.homeworks.homework6;
 
 import java.util.Random;
 
-public class RugbyTeam1 {
+public class RugbyTeams1 {
     public static void main(String[] args) {
         int teamSize = 25;
         int minAge = 18;
