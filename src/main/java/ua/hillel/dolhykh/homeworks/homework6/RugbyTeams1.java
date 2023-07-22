@@ -12,9 +12,11 @@ public class RugbyTeams1 {
         int[] team2 = generateTeam(teamSize, minAge, maxAge);
 
         System.out.println("Вік гравців команди 1:");
+
         printArray(team1);
         System.out.println("\nВік гравців команди 2:");
         printArray(team2);
+
 
         double averageAge1 = calculateAverageAge(team1);
         double averageAge2 = calculateAverageAge(team2);
