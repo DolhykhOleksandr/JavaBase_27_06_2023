@@ -48,8 +48,8 @@ package ua.hillel.dolhykh.homeworks.test1;
 
                 System.out.println("Клас: " + Elephant.animalClass); // Використання статичного поля через ім'я класу
 
-                System.out.println("Ім'я африканського слона: " + africanElephant.name); // Використання нестатичного поля через об'єкт
-                System.out.println("Ім'я індійського слона: " + indianElephant.name); // Використання нестатичного поля через об'єкт
+                System.out.println("Ім'я Африканського слона: " + africanElephant.name); // Використання нестатичного поля через об'єкт
+                System.out.println("Ім'я Індійського слона: " + indianElephant.name); // Використання нестатичного поля через об'єкт
 
                 Elephant.animalClass = "Тварини"; // Зміна значення статичного поля через ім'я класу
 
