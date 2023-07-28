@@ -1,5 +1,5 @@
 package ua.hillel.dolhykh.homeworks.tictactoe;
-
+import java.util.Random;
 import java.util.Scanner;
 
 public class TicTacToeVsComputer {
@@ -137,14 +137,15 @@ public class TicTacToeVsComputer {
     }
 
     private void makeComputerMove() {
-        for (int i = 0; i < boardSize; i++) {
-            for (int j = 0; j < boardSize; j++) {
-                if (board[i][j] == ' ') {
-                    makeMove(i, j);
-                    return;
-                }
-            }
-        }
+        Random random = new Random();
+        int row, col;
+
+        do {
+            row = random.nextInt(boardSize);
+            col = random.nextInt(boardSize);
+        } while (board[row][col] != ' ');
+
+        makeMove(row, col);
     }
 
     public static void main(String[] args) {
