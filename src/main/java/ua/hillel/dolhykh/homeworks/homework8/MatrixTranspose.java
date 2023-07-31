@@ -9,9 +9,9 @@ public class MatrixTranspose {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Введіть кількість рядків M: ");
-        int M = readPositiveInteger(scanner);
+        int M = Positive(scanner);
         System.out.println("Введіть кількість стовпців N: ");
-        int N = readPositiveInteger(scanner);
+        int N = Positive(scanner);
 
         int[][] originalMatrix = new int[M][N];
         int[][] transposedMatrix = new int[N][M];
@@ -47,7 +47,7 @@ public class MatrixTranspose {
         }
     }
 
-    private static int readPositiveInteger(Scanner scanner) {
+    private static int Positive(Scanner scanner) {
         int num;
         while (true) {
             try {
