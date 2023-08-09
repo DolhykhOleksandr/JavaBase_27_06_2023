@@ -1,7 +1,5 @@
 package ua.hillel.dolhykh.homeworks.homework11;
 
-
-
 public class Main {
 
     public static void main(String args[]) {
@@ -36,6 +34,7 @@ public class Main {
 
         System.out.println("ACCOUNT 2 NEW");
         Account iryna = new Account("Iryna", 15, 10, 1971, "irynashekera1510@gmail.com", "0632224433", "Shekera", 60, "120/80", 5000);
+        iryna.setSurname("Kovtunenko");
         iryna.setWeight(58);
         iryna.setPressure("125/65");
         iryna.setStepsPerDay(10000);
