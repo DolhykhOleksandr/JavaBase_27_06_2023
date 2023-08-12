@@ -6,7 +6,9 @@ public class Main {
         RockMusic rockBand = new RockMusic();
         ClassicMusic classicBand = new ClassicMusic();
 
-        for (MusicStyles musicStyle : new MusicStyles[]{popBand, rockBand, classicBand}) {
+        MusicStyles[] musicStyles = {popBand, rockBand, classicBand};
+
+        for (MusicStyles musicStyle : musicStyles) {
             musicStyle.playMusic();
         }
     }
