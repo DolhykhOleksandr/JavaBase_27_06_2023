@@ -1,22 +1,22 @@
 package ua.hillel.dolhykh.lessons.lesson12.animal;
 
-public class Cat extends Animal {
+public class Catt extends Animall {
 
     int countLive;
 
-    public Cat(int age) {
+    public Catt(int age) {
         super(age);
     }
 
-    public Cat(String name) {
+    public Catt(String name) {
         super(name);
     }
 
-    public Cat(String name, int age) {
+    public Catt(String name, int age) {
         super(name, age);
     }
 
-    public Cat(String name, int age, int countLive) {
+    public Catt(String name, int age, int countLive) {
         super(name, age);
         this.countLive = countLive;
     }

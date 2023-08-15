@@ -1,9 +1,9 @@
 package ua.hillel.dolhykh.lessons.lesson12.animal;
 
-public class Main {
+public class Main1 {
     public static void main(String[] args) {
 
-        Cat cat = new Cat("Barsik", 7);
+        Catt cat = new Catt("Barsik", 7);
         cat.countLive = 9;
 
         cat.hashCode();
