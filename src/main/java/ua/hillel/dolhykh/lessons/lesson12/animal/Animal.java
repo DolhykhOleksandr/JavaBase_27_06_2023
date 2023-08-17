@@ -1,20 +1,20 @@
 package ua.hillel.dolhykh.lessons.lesson12.animal;
 
-public class Animall {
+public class Animal {
 
     String name;
     int age;
 
-    public Animall(String name, int age) {
+    public Animal(String name, int age) {
         this.name = name;
         this.age = age;
     }
 
-    public Animall(String name) {
+    public Animal(String name) {
         this.name = name;
     }
 
-    public Animall(int age) {
+    public Animal(int age) {
         this.age = age;
     }
 

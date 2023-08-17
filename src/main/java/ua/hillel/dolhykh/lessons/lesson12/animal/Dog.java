@@ -1,8 +1,8 @@
 package ua.hillel.dolhykh.lessons.lesson12.animal;
 
-public class Dogg extends Animall {
+public class Dog extends Animal {
 
-    public Dogg(String name, int age) {
+    public Dog(String name, int age) {
         super(name, age);
     }
 
