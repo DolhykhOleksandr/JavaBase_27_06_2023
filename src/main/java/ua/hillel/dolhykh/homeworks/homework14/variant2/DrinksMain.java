@@ -11,9 +11,10 @@ public class DrinksMain {
         String answer;
         boolean working = true;
 
+        Scanner in = new Scanner(System.in);
+
         System.out.print("Do you want some drink? Please type 'y' for YES or 'n' for NO: ");
         while (working) {
-            Scanner in = new Scanner(System.in);
             answer = in.nextLine().trim();
 
             if ("y".equals(answer)) {
@@ -54,8 +55,8 @@ public class DrinksMain {
                 System.out.println("Sorry, I didn't catch that. Please answer y/n");
             }
         }
+        in.close();
     }
-
 
     private static void prepare(Drinks order, String input) {
         DrinksMachine choice = DrinksMachine.valueOf(input.toUpperCase());
