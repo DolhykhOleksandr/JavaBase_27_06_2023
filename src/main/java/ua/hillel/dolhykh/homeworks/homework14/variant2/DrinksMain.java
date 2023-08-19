@@ -34,7 +34,7 @@ public class DrinksMain {
                         boolean validResponse = false;
                         while (!validResponse) {
                             System.out.println("Do you want to try again? Please type 'y' for YES or 'n' for NO: ");
-                            String retry = in.nextLine().trim().toLowerCase();
+                            String retry = in.nextLine().trim();
                             if ("y".equals(retry)) {
                                 validResponse = true;
                             } else if ("n".equals(retry)) {
@@ -46,6 +46,7 @@ public class DrinksMain {
                                 System.out.println("Sorry, I didn't catch that.");
                             }
                         }
+
                     }
                 }
             } else if ("n".equals(answer)) {
