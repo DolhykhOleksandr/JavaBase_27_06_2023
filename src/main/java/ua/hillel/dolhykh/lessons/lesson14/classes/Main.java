@@ -43,7 +43,7 @@ public class Main {
             }
         };
 
-        myInterface.methodFromInterface();
+       myInterface.methodFromInterface();
 
     }
 }

@@ -23,7 +23,6 @@ public class Main {
 
 
         Flyieble flyieble = new Bird("Kesha", 4);
-
         flyieble.fly();
 
         if (flyieble instanceof Bird) {

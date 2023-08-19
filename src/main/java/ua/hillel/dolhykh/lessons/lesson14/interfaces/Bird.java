@@ -12,6 +12,6 @@ public class Bird extends Animal implements Flyieble {
 
     @Override
     public void defaultMethod() {
-        System.out.println("bird do something");
+        Flyieble.super.defaultMethod();
     }
 }
