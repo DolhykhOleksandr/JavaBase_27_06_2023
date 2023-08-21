@@ -13,9 +13,9 @@ public class Main {
 
         // Введення кількості фрагів для гравців першої команди
         int[] fragsPlayersFirstTeam = new int[5];
-        for (int i = 0; i < 5; i++) {
-            System.out.print("Введіть кількість фрагів для гравця " + (i + 1) + ": ");
-            int userValueInt = 1;
+        for (int i = 1; i < 5; i++) {
+            System.out.print("Введіть кількість фрагів для гравця " + i  + ": ");
+            int userValueInt = -1;
             if (scanner.hasNextInt()) {
                 userValueInt = scanner.nextInt();
             } else {
@@ -35,7 +35,7 @@ public class Main {
         int[] fragsPlayersSecondTeam = new int[5];
         for (int i = 0; i < 5; i++) {
             System.out.print("Введіть кількість фрагів для гравця " + (i + 1) + ": ");
-            int userValueInt = 1;
+            int userValueInt = -1;
             if (scanner.hasNextInt()) {
                 userValueInt = scanner.nextInt();
             } else {

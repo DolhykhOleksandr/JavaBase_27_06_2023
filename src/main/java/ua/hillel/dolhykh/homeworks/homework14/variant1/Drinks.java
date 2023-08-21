@@ -101,6 +101,6 @@ public class Drinks {
 
 
     public static void makeNewDrink(DrinksMachine drink) {
-        System.out.format("Making new drink: %s. Please wait\n", drink.toString().toLowerCase());
+        System.out.format("Making new drink: %s. Please wait\n", drink.toString().toUpperCase());
     }
 }

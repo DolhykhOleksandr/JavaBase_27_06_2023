@@ -24,6 +24,7 @@ public class DrinksMain {
                     System.out.println(Arrays.toString(drinks));
 
                     String input = in.nextLine();
+
                     boolean isPresent = checkDrink(drinks, input);
 
                     if (isPresent) {
@@ -87,6 +88,7 @@ public class DrinksMain {
         System.out.println("You've already bought " + order.getAmountOfDrinks() + " drinks, it's worth: " + order.getBill());
         System.out.print("Do you want more drinks? Please type 'y' for YES or 'n' for NO: ");
     }
+
 
     private static boolean checkDrink(DrinksMachine[] drinks, String input) {
         boolean isPresent = false;

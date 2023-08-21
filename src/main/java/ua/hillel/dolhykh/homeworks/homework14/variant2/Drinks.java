@@ -1,15 +1,15 @@
 package ua.hillel.dolhykh.homeworks.homework14.variant2;
 
 public class Drinks {
-    public static final int TEA = 10;
-    public static final int COFFEE = 20;
-    public static final int MOJITO = 30;
-    public static final int LEMONADE = 40;
-    public static final int MINERAL = 50;
-    public static final int COCA_COLA = 60;
+    public  final int TEA = 10;
+    public  final int COFFEE = 20;
+    public  final int MOJITO = 30;
+    public  final int LEMONADE = 40;
+    public  final int MINERAL = 50;
+    public  final int COCA_COLA = 60;
 
     private int bill;
-    private int amountOfDrinks;
+    private  int amountOfDrinks;
 
     public int getBill() {
         return bill;
