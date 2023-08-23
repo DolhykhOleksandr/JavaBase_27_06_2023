@@ -1,9 +1,9 @@
-package ua.hillel.dolhykh.homework15;
+package ua.hillel.dolhykh.homework15.variant1;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import ua.hillel.dolhykh.homeworks.homework15.ArraysTask;
+import ua.hillel.dolhykh.homeworks.homework15.variant1.ArraysTask;
 
 
 public class TestArraysTask {

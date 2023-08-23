@@ -1,4 +1,4 @@
-package ua.hillel.dolhykh.homeworks.homework15;
+package ua.hillel.dolhykh.homeworks.homework15.variant1;
 
 public class ArraysTask {
 
@@ -22,6 +22,7 @@ public class ArraysTask {
             return false;
         }
 
+
         int arrayLength = array.length;
 
         for (int i = 0; i < arrayLength; i++) {
@@ -32,3 +33,12 @@ public class ArraysTask {
         return true;
     }
 }
+           //Idea предлагает поменять цикл на for each но я оставил свой,как вариант и for each подойдет
+       /* for (int[] ints : array) {
+            if (arrayLength != ints.length) {
+                return false;
+            }
+        }
+        return true;
+    }
+}*/
