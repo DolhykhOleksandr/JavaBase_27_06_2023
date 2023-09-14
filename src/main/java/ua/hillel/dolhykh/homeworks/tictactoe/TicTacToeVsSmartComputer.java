@@ -248,8 +248,8 @@ public class TicTacToeVsSmartComputer {
 
         do {
             int boardSize = 4; // Можно изменить размер доски
-            int winCondition = 4; // Можно изменить условия выиграша
-            int computerDifficulty = 3; // Можно изменить сложность компьютера
+            int winCondition = 3; // Можно изменить условия выиграша
+            int computerDifficulty = 1; // Можно изменить сложность компьютера
             TicTacToeVsSmartComputer game = new TicTacToeVsSmartComputer(boardSize, winCondition, computerDifficulty);
             game.play();
 

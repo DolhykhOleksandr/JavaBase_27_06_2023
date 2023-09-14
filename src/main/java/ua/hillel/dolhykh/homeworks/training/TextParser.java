@@ -6,9 +6,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.io.File;
 
-
-//Create class and implement inside main method ability to parse text from attached file. Parsing algorithm should to parse text char by char (line reading is unacceptable) and store them to the List. After parsing all characters should to be printed (each char on a new line).
 public class TextParser {
 
     private List<Character> parsedChars;
@@ -36,10 +35,48 @@ public class TextParser {
     public static void main(String[] args) {
         TextParser parser = new TextParser();
         try {
-            parser.parseText("C:\\Users\\User\\IdeaProjects\\Java_Base_27_06_2023\\src\\main\\java\\ua\\hillel\\dolhykh\\homeworks\\training\\Example.txt");
+            String fileName = "SimpleText.txt";
+            String absolutePath = new File(fileName).getAbsolutePath();
+            parser.parseText(absolutePath);
             parser.printParsedChars();
         } catch (IOException e) {
             System.out.println("Error reading file: " + e.getMessage());
         }
     }
 }
+
+
+/*
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+public class CharacterParser {
+    public static void main(String[] args) {
+        String fileName = "Example1"; // Replace with your actual file name
+        List<Character> charList = parseCharacters(fileName);
+
+        for (Character c : charList) {
+            System.out.println(c);
+        }
+    }
+
+    public static List<Character> parseCharacters(String fileName) {
+        List<Character> charList = new ArrayList<>();
+
+        try (BufferedReader reader = new BufferedReader(new FileReader(fileName))) {
+            int charCode;
+            while ((charCode = reader.read()) != -1) {
+                char character = (char) charCode;
+                charList.add(character);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return charList;
+    }
+}
+*/

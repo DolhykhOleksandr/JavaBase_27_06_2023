@@ -6,6 +6,5 @@ public class BurgerMain {
         Burger dietBurger = new Burger("Bun", "Beef", "Cheddar", "Lettuce");
         Burger doubleMeatBurger = new Burger("Bun", "Beef", " and Turkey", "Cheddar", "Lettuce", "Mayonnaise");
 
-    }
+   }
 }
-
